@@ -7,13 +7,13 @@ CREATE DATABASE outer_space2;
 
 \c outer_space2
 
-CREATE TABLE galaxy
+CREATE TABLE galaxies
 (
   id SERIAL PRIMARY KEY,
   name TEXT NOT NULL
 );
 
-INSERT INTO galaxy
+INSERT INTO galaxies
   (name)
 VALUES
   ('Milky Way');
